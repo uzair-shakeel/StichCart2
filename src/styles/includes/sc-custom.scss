@@ -1,0 +1,82 @@
+.howitworks-content-mobile
+{
+    background: $color-darypurple885567;
+    width: 100%;
+    min-height: 200px;
+    border-radius: ($border-radius)-8 ;
+    padding: 10px 10px;
+    display: flex;
+  
+    margin: 0 10px 0 0;
+    &:last-child
+    {
+        margin: 0;
+    }
+    &:nth-child(2)
+    {
+        //padding: 20px 0 20px 70px;
+        img
+        {
+            margin-top: -20px;
+        }
+    }
+    img
+    {
+        vertical-align: middle;
+    }
+    h3,
+    p
+    {
+        
+        color: $color-white;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+    div
+    {
+        margin: 0 0 0 30px;
+    }
+    h3
+    {
+        font-size: $font-size+8;
+        margin: 20px 0 5px 0;
+        font-weight: $font-weight-5;
+       
+    }
+    p
+    {
+        font-size: ($font-size)-3;
+    }
+
+}
+
+.productdetail-bigimage
+{
+    border-radius: 4px;
+    @media (max-width: 576px) 
+    {
+        width: 100%;
+    }
+}
+
+.recent-status-progres-hide-btn
+{
+    display: none !important;
+}
+
+.react-inputs-validation__msg.react-inputs-validation__error
+{
+    color: #ff5a57 !important;
+}
+
+.error-txt
+{
+    color: #ff5a57 !important;
+}
+.sc-radio
+{
+    display: inline-block!important;
+    opacity: 1!important;
+    position: relative !important;
+}

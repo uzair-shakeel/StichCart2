@@ -1,0 +1,92 @@
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import logo from "../../../public/1.png";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { IoClose } from "react-icons/io5";
+import { FaRegCircleUser } from "react-icons/fa6";
+// import "./navbar.scss";
+
+const Navbar = () => {
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+  console.log(sidebarOpen);
+  return (
+    <div>
+      <div className="navbar desktop">
+        <div className="container">
+          <Link to={"/"}>
+            <img src={logo} className="logo" alt="Logo" />
+          </Link>
+          <div className="menu">
+            <Link to={"/login"} className="loginDiv">
+              <FaRegCircleUser
+                size={28}
+                className="icon"
+                style={{ height: "20px" }}
+              />
+              <div>Login</div>
+            </Link>
+            <ul>
+              <li>
+                <Link to="/services">Our Services</Link>
+              </li>
+              <li>
+                <Link to="/how-it-works">How it Works</Link>
+              </li>
+              <li>
+                <Link to="/why-choose-us">Why Choose Us</Link>
+              </li>
+              <li>
+                <Link to="/contact-us">Contact Us</Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="navbar mobile">
+        <Link to={"/"} onClick={() => setSidebarOpen(false)}>
+          <img src={logo} className="logo" alt="Logo" />
+        </Link>
+        <button onClick={() => setSidebarOpen(!sidebarOpen)}>
+          {sidebarOpen ? <IoClose size={25} /> : <GiHamburgerMenu size={25} />}
+        </button>
+      </div>
+      {/* <aside className={`sidebar ${sidebarOpen ? "open" : "closed"}`}>
+        <ul>
+          <li>
+            <Link to="/services" onClick={() => setSidebarOpen(false)}>
+              Our Services
+            </Link>
+          </li>
+          <li>
+            <Link to="/how-it-works" onClick={() => setSidebarOpen(false)}>
+              How it Works
+            </Link>
+          </li>
+          <li>
+            <Link to="/why-choose-us" onClick={() => setSidebarOpen(false)}>
+              Why Choose Us
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact-us" onClick={() => setSidebarOpen(false)}>
+              Contact Us
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/login"
+              onClick={() => setSidebarOpen(false)}
+              className="login-icon"
+            >
+              <FaRegCircleUser size={23} />
+              Log In
+            </Link>
+          </li>
+        </ul>
+      </aside> */}
+    </div>
+  );
+};
+
+export default Navbar;

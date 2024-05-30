@@ -1,0 +1,96 @@
+.myquote-list
+{
+    display: flex;
+    background: $color-white;
+    padding: 20px;
+    flex-wrap: wrap;
+   // justify-content: space-around;
+   justify-content: flex-start;
+    @media (max-width: 576px)
+    {
+        background: transparent;
+        padding-top: 0;
+    }
+    .success-content-div
+    {
+            min-height: 450px;
+            padding-top: 100px;
+            img
+            {
+                margin-bottom: 10px;
+            }
+            h3
+            {
+                font-size: $font-size+6;
+                font-weight: 500;
+                color: $main-color-grey-tint1;
+            }
+    }
+    
+        .cart-list 
+        {
+            width: 48%;
+            flex: 0 0 auto;
+            margin-bottom: 30px;
+            margin-right: 20px;
+            @media (max-width: 576px)
+            {
+                width: 100%;
+                .col-lg-10
+                {
+                    width: 72%;
+                }
+                .col-lg-2
+                {
+                    width: 28%;
+                }
+                .rate
+                {
+                    margin-top: 15px;
+                }
+               
+                .statusdiv
+                {
+                    div
+                    {
+                        width: 100% !important;
+                        margin-left: auto;
+                        margin-top: 0px;
+                       // margin-top: 50px;
+                        border-radius: ($border-radius);
+                       // padding: 0 10px;
+                    }
+                }
+            }
+        }
+     .statusdiv
+     {
+        div
+        {
+            background: $color-info;
+            text-align: center;
+            padding: 6px;
+            border-radius: $border-radius;
+            &.inprogress
+            {
+                background:$inprogressclr;
+                color:$inprogressclr-txt
+            }
+            &.decline
+            {
+                background:$declineclr;
+                color:$declineclr-txt
+            }
+            &.created
+            {
+                background:$createdclr;
+                color:$createdclr-txt;
+            }
+            &.accepted
+            {
+                background:$accpetedclr;
+                color:$accpetedclr-txt;
+            }
+        }
+     } 
+}
