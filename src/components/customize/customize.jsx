@@ -16,7 +16,7 @@ const customize = () => {
           Tailor - make your dream <br />
           outfits by one click
         </p>
-        <Button className="btn btn-primary" label="Get Quote" />
+        <Button className="btn-primary" label="Get Quote" />
       </div>
 
       <img src={offer} alt="" className="image" />

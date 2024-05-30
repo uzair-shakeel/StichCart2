@@ -11,7 +11,7 @@ const homeBanner = () => {
           We are fully equipped to fulfil all your bulk orders promptly and
           efficiently, with high standards of excellence.
         </p>
-        <Button className="btn btn-primary" label="Book your fitting today" />
+        <Button className="btn-primary" label="Book your fitting today" />
       </div>
       <div className="image">
         <img src={image} />

@@ -22,7 +22,7 @@ const homeBanner = () => {
           <br />
           If yes, please call us or message us on WhatsApp{" "}
         </p>
-        <Button className="btn btn-primary" label="Book your fitting today" />
+        <Button className="btn-primary" label="Book your fitting today" />
       </div>
     </div>
   );
