@@ -42,7 +42,7 @@
         height: 10px;
         .filled
         {
-           
+
             height: 100%;
             background: $main-color-pink;
             border-top-right-radius: $border-radius;
@@ -71,7 +71,7 @@
             {
                 width: 100%;
             }
-            
+
         }
     }
     .customise-content
@@ -93,7 +93,7 @@
             {
                 display: inline-block;
                 position: relative;
-               
+
                 &:after {
                     width: 20px;
                     height: 20px;
@@ -107,7 +107,7 @@
                     visibility: visible;
                     border:$border-width-2 solid $main-color-darkpurple;
                 }
-            
+
                 &:checked
                 {
                     &:after {
@@ -137,11 +137,8 @@
                         border:$border-width-2 solid $color-white;
                         z-index: 9;
                     }
-                    
+
                 }
-
-
-
 
             }
             label
@@ -176,7 +173,7 @@
                         background: $main-color-pink;
                         border: 1px solid $main-color-pink;
                     }
-                    
+
                 }
                 .ordiv
                 {
@@ -188,7 +185,7 @@
                     .ortxt
                     {
                         position: absolute;
-                        
+
                         text-align: center;
                         color: $main-color-grey-tint2;
                     top: -11px;
@@ -213,7 +210,7 @@
                     {
                         width: 16px;
                         height: 16px;
-                        
+
                     }
                 }
             }
@@ -228,7 +225,7 @@
                 font-weight: $font-weight-5;
                 margin: 0 0 25px 0;
             }
-            
+
             .main-materialdiv
             {
                 height: 300px;
@@ -246,23 +243,22 @@
                         font-size: $font-size+2;
                         font-weight: $font-weight-5;
                         padding: 0 0 0 15px;
-                        
+
                     }
                     .price
                     {
                         font-weight: $font-weight-7;
                     }
-    
+
                 }
             }
-            
+
         }
         .customdetail
         {
             .fielddiv
             {
-    
-    
+
                 width: 328px;
                 margin: 0 0 20px;
                 input
@@ -277,7 +273,7 @@
                         text-align: center;
                     }
                 }
-            
+
                 label
                 {
                     position: absolute;
@@ -336,7 +332,7 @@
         padding: 20px;
        // width: 90%;
         margin: auto;
-      
+
         .model-images-div
         {
             display: flex;
@@ -347,11 +343,11 @@
                 position: relative;
                 input
                 {
-                    
+
                     position: absolute;
                     left: 10px;
                     top: 10px;
-                   
+
                 }
             }
             img
@@ -363,25 +359,24 @@
     }
 }
 
-.react-horizontal-scrolling-menu--item 
+.react-horizontal-scrolling-menu--item
 {
     margin: 0 10px;
     background: $color-white;
     border-radius: $border-radius;
-  
-    
+
     img
     {
         margin: 10px;
     }
-    
+
     h3
     {
         font-size: $font-size+2;
         text-align: center;
 
     }
-    @media (max-width: 576px) 
+    @media (max-width: 576px)
     {
         margin: 0 5px;
         img
@@ -399,12 +394,12 @@
 .recent-list,
 .custoemr-review
 {
-    .react-horizontal-scrolling-menu--item 
+    .react-horizontal-scrolling-menu--item
     {
         margin: 0 !important;
         background: none !important;
         border-radius: 0 !important;
-        
+
         img
         {
             margin: 0px !important;
@@ -419,7 +414,7 @@
 }
 .recent-list
 {
-    .react-horizontal-scrolling-menu--item 
+    .react-horizontal-scrolling-menu--item
     {
         a
         {
@@ -492,8 +487,8 @@
                                     p
                                     {
                                         background: $color-white;
-                                        padding: 10px !important; 
-                                      
+                                        padding: 10px !important;
+
                                     }
                                 }
                             }
@@ -532,7 +527,7 @@
                                     }
                                 }
                             }
-                            .btns-div 
+                            .btns-div
                             {
                                 position: fixed;
                                 background: $color-white;
@@ -556,7 +551,7 @@
                                         background: transparent;
                                     }
                                 }
-                               
+
                             }
 
                         }
@@ -615,7 +610,7 @@
                        background:$accpetedclr;
                        color:$accpetedclr-txt;
                    }
-               
+
             }
         }
         h5
@@ -659,7 +654,7 @@
                 {
                   //  padding: 25px;
                     text-align: left;
-                   
+
                         .items
                         {
                             margin: 0 0 20px;
@@ -670,7 +665,7 @@
                             .imagediv
                             {
                                 display: flex;
- 
+
                                 div
                                 {
                                     height: 86px;
@@ -680,11 +675,11 @@
                                     border-radius: ($border-radius)-10;
                                     flex: 0 0 auto;
                                     margin: 0 10px 0 0;
-                                  
+
                                 }
                                 img
                                 {
-                                  
+
                                     vertical-align: middle;
                                     margin: 0;
                                     height: 86px;
@@ -697,7 +692,7 @@
                                         height: 38px !important;
                                     }
                                 }
-                              
+
                                 p
                                 {
                                     color: $main-color-grey;
@@ -710,14 +705,14 @@
                                     height: 86px;
                                 }
                             }
-                           
+
                         }
                         &.create
                         {
                             .imagediv
                             {
                                 display: flex;
- 
+
                                 div
                                 {
                                    // padding: 20px;
@@ -743,8 +738,6 @@
                             }
                         }
 
-                       
-                    
                 }
             }
             &.addon
@@ -753,7 +746,7 @@
                 margin-left: 40px;
                 .c-image
                 {
-                   
+
                   //  padding: 30px 30px 40px 30px;
                     padding: 30px 30px 0px 30px;
                     width: 100%;
@@ -799,7 +792,7 @@
                         }
                     }
                 }
-                .btns-div 
+                .btns-div
                 {
                     margin: 80px 0 0 0;
                     vertical-align: bottom;
@@ -812,7 +805,7 @@
                         .btn
                         {
                             width: 48%;
-                           
+
                             &:nth-child(2)
                             {
                                 margin-left: auto;
@@ -838,7 +831,7 @@
                 }
             }
         }
-       
+
     }
     .fielddiv
     {
@@ -849,7 +842,7 @@
             background: $color-greyF4F4F4 !important;
             border: 1px solid $main-color-grey;
         }
-       
+
     }
 
 }
