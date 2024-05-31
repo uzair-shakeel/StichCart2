@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../../public/1.png";
+import logo from "../../assets/1.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
 import { FaRegCircleUser } from "react-icons/fa6";
-// import "./navbar.scss";
 
 const Navbar = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);

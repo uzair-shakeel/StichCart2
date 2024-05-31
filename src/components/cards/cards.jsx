@@ -1,12 +1,12 @@
 import React from "react";
-import school from "../../../public/school uniform.png";
-import college from "../../../public/college.png";
-import medical from "../../../public/medical.png";
-import corporate from "../../../public/corporate.png";
-import saree from "../../../public/Saree.png";
-import labCoat from "../../../public/LapCoat.png";
-import Blazer from "../../../public/Blazer.png";
-import whatsapp from "../../../public/whatsapp2.png";
+import school from "../../assets/school uniform.png";
+import college from "../../assets/college.png";
+import medical from "../../assets/medical.png";
+import corporate from "../../assets/corporate.png";
+import saree from "../../assets/Saree.png";
+import labCoat from "../../assets/LapCoat.png";
+import Blazer from "../../assets/Blazer.png";
+import whatsapp from "../../assets/whatsapp2.png";
 
 const cards = () => {
   return (

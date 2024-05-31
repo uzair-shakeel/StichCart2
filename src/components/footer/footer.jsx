@@ -4,11 +4,9 @@ import { Link } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import footerLogo from "../../../public/1.png";
+import footerLogo from "../../assets/1.png";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
-
-import "../../styles/includes/footer.scss";
 
 const Footer = () => {
   return (
@@ -26,7 +24,7 @@ const Footer = () => {
             <FaTwitter size={20} className="icon" />
             <FaInstagram size={20} className="icon" />
           </div>
-        </div> 
+        </div>
       </div>
       <div className="ulDiv">
         <div>

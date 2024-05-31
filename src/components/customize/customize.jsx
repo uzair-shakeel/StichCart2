@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/includes/customizeBanner.scss";
 import Button from "../button/button";
-import offer from "../../../public/offer.png";
+import offer from "../../assets/offer.png";
 
 const customize = () => {
   return (

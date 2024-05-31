@@ -1,6 +1,6 @@
 import React from "react";
-import image1 from "../../../public/Group 70 copy.png";
-import image2 from "../../../public/Group 70 copy 2.png";
+import image1 from "../../assets/Group 70 copy.png";
+import image2 from "../../assets/Group 70 copy 2.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

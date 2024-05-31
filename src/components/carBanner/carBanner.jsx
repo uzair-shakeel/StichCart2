@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/includes/carBanner.scss";
 import Button from "../button/button";
-import image from "../../../public/car.png";
+import image from "../../assets/car.png";
 
 const homeBanner = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import image1 from "../../../public/works1.png";
-import image2 from "../../../public/works2.png";
-import image3 from "../../../public/works3.png";
+import image1 from "../../assets/works1.png";
+import image2 from "../../assets/works2.png";
+import image3 from "../../assets/works3.png";
 
 const RecentWorks = () => {
   return (

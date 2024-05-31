@@ -1,5 +1,5 @@
 import React from "react";
-import loaderImg from "../../assets/imgs/loading.gif";
+import loaderImg from "../../assets/loading.gif";
 
 const Button = ({
   className = "btn btn-primary",
