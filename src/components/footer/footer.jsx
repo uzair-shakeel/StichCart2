@@ -22,9 +22,9 @@ const Footer = () => {
         <div>
           <p style={{ fontWeight: "600", color: "white" }}>Follow us on</p>
           <div className="icons">
-            <FaFacebook size={20} />
-            <FaTwitter size={20} />
-            <FaInstagram size={20} />
+            <FaFacebook size={20} className="icon" />
+            <FaTwitter size={20} className="icon" />
+            <FaInstagram size={20} className="icon" />
           </div>
         </div>
       </div>
