@@ -52,14 +52,18 @@ const Navbar = () => {
       </div>
 
       <div className="mobile">
-        <Link to={"/"} onClick={() => setSidebarOpen(false)}>
+        <Link to={"/"}>
           <img src={logo} className="logo" alt="Logo" />
         </Link>
-        <button onClick={() => setSidebarOpen(!sidebarOpen)}>
-          {sidebarOpen ? <IoClose size={25} /> : <GiHamburgerMenu size={25} />}
+        <button onClick={() => setSidebarOpen(!sidebarOpen)} className="navbtn">
+          {sidebarOpen ? (
+            <IoClose size={25} className="navbtn" />
+          ) : (
+            <GiHamburgerMenu size={25} className="navbtn" />
+          )}
         </button>
       </div>
-      {/* <aside className={`sidebar ${sidebarOpen ? "open" : "closed"}`}>
+      <aside className={`sidebar ${sidebarOpen ? "open" : "closed"}`}>
         <ul>
           <li>
             <Link to="/services" onClick={() => setSidebarOpen(false)}>
@@ -86,13 +90,14 @@ const Navbar = () => {
               to="/login"
               onClick={() => setSidebarOpen(false)}
               className="login-icon"
+             
             >
               <FaRegCircleUser size={23} />
               Log In
             </Link>
           </li>
         </ul>
-      </aside> */}
+      </aside>
     </div>
   );
 };
