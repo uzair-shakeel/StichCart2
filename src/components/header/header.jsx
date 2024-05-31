@@ -52,16 +52,12 @@ const Navbar = () => {
       </div>
 
       <div className="mobile">
-        <Link to={"/"}>
+        <Link to={"/"} onClick={() => setSidebarOpen(false)}>
           <img src={logo} className="logo" alt="Logo" />
         </Link>
-        <button onClick={() => setSidebarOpen(!sidebarOpen)} className="navbtn">
-          {sidebarOpen ? (
-            <IoClose size={25} className="navbtn" />
-          ) : (
-            <GiHamburgerMenu size={25} className="navbtn" />
-          )}
-        </button>
+        <div onClick={() => setSidebarOpen(!sidebarOpen)} className="navbtn">
+          {sidebarOpen ? <IoClose size={30} /> : <GiHamburgerMenu size={26} />}
+        </div>
       </div>
       <aside className={`sidebar ${sidebarOpen ? "open" : "closed"}`}>
         <ul>
@@ -90,7 +86,6 @@ const Navbar = () => {
               to="/login"
               onClick={() => setSidebarOpen(false)}
               className="login-icon"
-             
             >
               <FaRegCircleUser size={23} />
               Log In
