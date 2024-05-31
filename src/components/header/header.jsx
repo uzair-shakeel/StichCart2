@@ -11,7 +11,7 @@ const Navbar = () => {
   console.log(sidebarOpen);
   return (
     <div>
-      <div className="navbar desktop">
+      <div className="desktop">
         <div className="container">
           <Link to={"/"}>
             <img src={logo} className="logo" alt="Logo" />
@@ -27,23 +27,31 @@ const Navbar = () => {
             </Link>
             <ul>
               <li>
-                <Link to="/services">Our Services</Link>
+                <Link to="/services" className="navli">
+                  Our Services
+                </Link>
               </li>
               <li>
-                <Link to="/how-it-works">How it Works</Link>
+                <Link to="/how-it-works" className="navli">
+                  How it Works
+                </Link>
               </li>
               <li>
-                <Link to="/why-choose-us">Why Choose Us</Link>
+                <Link to="/why-choose-us" className="navli">
+                  Why Choose Us
+                </Link>
               </li>
               <li>
-                <Link to="/contact-us">Contact Us</Link>
+                <Link to="/contact-us" className="navli">
+                  Contact Us
+                </Link>
               </li>
             </ul>
           </div>
         </div>
       </div>
 
-      <div className="navbar mobile">
+      <div className="mobile">
         <Link to={"/"} onClick={() => setSidebarOpen(false)}>
           <img src={logo} className="logo" alt="Logo" />
         </Link>
