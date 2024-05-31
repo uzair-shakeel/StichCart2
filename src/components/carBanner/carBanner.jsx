@@ -14,15 +14,18 @@ const homeBanner = () => {
         <p>TAMBARAM, PALLAVARAM, PORUR & MANNIVAKKAM</p>
       </div>
       <div className="first">
-        <h5>Shriram properties </h5>
-        <h5></h5>
+        <h5>Shriram properties</h5>
+
         <p>apartments where we currently offer stitching service </p>
         <p>
           Would you like our doorstep stitching service in your apartment?{" "}
           <br />
           If yes, please call us or message us on WhatsApp{" "}
         </p>
-        <Button className="btn-primary" label="Book your fitting today" />
+        <Button
+          className="btnStyle btn-primary"
+          label="Book your fitting today"
+        />
       </div>
     </div>
   );

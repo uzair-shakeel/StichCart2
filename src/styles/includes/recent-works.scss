@@ -38,3 +38,17 @@
     object-fit: cover; /* Cover container while maintaining aspect ratio */
   }
 }
+
+@media (max-width: 768px) {
+  .recentWorks {
+    grid-template-columns: repeat(2, 1fr); /* 3 columns for medium devices */
+  }
+}
+
+/* Media query for small devices (phones) */
+@media (max-width: 480px) {
+  .recentWorks {
+    grid-template-columns: repeat(1, 1fr); /* 1 column for small devices */
+    margin: 5% 2%; /* Adjust margin for smaller screens */
+  }
+}

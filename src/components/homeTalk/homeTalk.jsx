@@ -9,8 +9,8 @@ const HomeTalk = () => {
         <Button className="btn-outline" label="Call or WhatsApp Now" />
       </div>
       <h1 className="home-talk__heading">
-        Book your appointment now and experience the luxury of <br />
-        personalized tailoring without stepping out of your home
+        Book your appointment now and experience the luxury of personalized
+        tailoring without stepping out of your home
       </h1>
       <div className="home-talk__button-container">
         <button className="btn-transparent">

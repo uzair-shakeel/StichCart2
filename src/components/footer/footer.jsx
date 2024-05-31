@@ -26,7 +26,7 @@ const Footer = () => {
             <FaTwitter size={20} className="icon" />
             <FaInstagram size={20} className="icon" />
           </div>
-        </div>
+        </div> 
       </div>
       <div className="ulDiv">
         <div>
