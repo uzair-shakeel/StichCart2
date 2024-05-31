@@ -33,16 +33,24 @@ const Footer = () => {
           <ul>
             <li style={{ fontWeight: "600", fontSize: "20px" }}>Information</li>
             <li>
-              <Link to={"/about-us"}>About Us</Link>
+              <Link to={"/about-us"} className="lis">
+                About Us
+              </Link>
             </li>
             <li>
-              <Link to={"/services"}>Our Services</Link>
+              <Link to={"/services"} className="lis">
+                Our Services
+              </Link>
             </li>
             <li>
-              <Link to={"/howitworks"}>How it Works</Link>
+              <Link to={"/howitworks"} className="lis">
+                How it Works
+              </Link>
             </li>
             <li>
-              <Link to={"/whychooseus"}>Why Choose Us</Link>
+              <Link to={"/whychooseus"} className="lis">
+                Why Choose Us
+              </Link>
             </li>
           </ul>
         </div>
@@ -52,6 +60,7 @@ const Footer = () => {
             <li>
               <Link
                 to={"/about-us"}
+                className="lis"
                 style={{ display: "flex", alignItems: "center", gap: "10px" }}
               >
                 <FaPhoneVolume /> +91 72001 68295
@@ -60,6 +69,7 @@ const Footer = () => {
             <li>
               <Link
                 to={"/services"}
+                className="lis"
                 style={{ display: "flex", alignItems: "center", gap: "10px" }}
               >
                 <MdOutlineEmail /> info@stitchcart.co.in

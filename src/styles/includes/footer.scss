@@ -36,4 +36,46 @@
       }
     }
   }
+
+  .ulDiv {
+    display: flex;
+    gap: 40px;
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .lis {
+        color: #797979;
+        transition: 0.45s ease-in-out;
+      }
+      .lis:hover {
+        color: white;
+        transition: 0.45s ease-in-out;
+      }
+    }
+  }
+
+  .newsletter {
+    input {
+      padding: 15px 20px;
+      width: 100%;
+      outline: none;
+      border: none;
+      background: black;
+      color: #797979;
+    }
+    .checkboxMatter {
+      display: flex;
+      margin: 20px 0;
+      gap: 10px;
+      input {
+        width: 25px;
+        height: 25px;
+      }
+      p {
+        color: #797979;
+      }
+    }
+  }
 }
