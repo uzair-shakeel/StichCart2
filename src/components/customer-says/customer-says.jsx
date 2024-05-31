@@ -4,6 +4,7 @@ import image2 from "../../../public/Group 70 copy 2.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
 
 const Carousal = () => {
   const settings = {
@@ -11,6 +12,8 @@ const Carousal = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    nextArrow: <MdKeyboardArrowRight color="white" />,
+    prevArrow: <MdKeyboardArrowLeft color="white" />,
   };
   return (
     <div className="slider-container" style={{ padding: "0 5%" }}>

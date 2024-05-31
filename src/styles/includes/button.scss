@@ -81,10 +81,11 @@ fieldset:disabled .btn {
   font-weight: 600;
   padding: 0.58rem 1.375rem;
   cursor: pointer;
-  height: 150px;
-  width: 150px;
+  height: 170px;
+  width: 170px;
   border-radius: 50%;
   display: flex;
+  gap: 10px;
   align-items: center;
   justify-content: center;
   background: transparent;

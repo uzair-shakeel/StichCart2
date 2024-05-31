@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../button/button";
+import { MdArrowOutward } from "react-icons/md";
 
 const HomeTalk = () => {
   return (
@@ -12,7 +13,9 @@ const HomeTalk = () => {
         personalized tailoring without stepping out of your home
       </h1>
       <div className="home-talk__button-container">
-        <Button className="btn-transparent" label="Let's Talk Us" />
+        <button className="btn-transparent">
+          Let's Talk Us <MdArrowOutward />
+        </button>
       </div>
     </div>
   );
