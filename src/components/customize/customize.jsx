@@ -19,7 +19,7 @@ const customize = () => {
         <Button className="btn-primary" label="Get Quote" />
       </div>
 
-      <img src={offer} alt="" className="image" />
+      <img src={offer} alt="" className="image hideImage" />
     </div>
   );
 };

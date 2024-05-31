@@ -14,9 +14,26 @@ const Carousal = () => {
     slidesToScroll: 1,
     nextArrow: <MdKeyboardArrowRight color="white" />,
     prevArrow: <MdKeyboardArrowLeft color="white" />,
+    responsive: [
+      {
+        breakpoint: 770,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
-    <div className="slider-container" style={{ padding: "0 5%" }}>
+    <div className="slider-container" style={{ padding: "0 5%", width: "98%" }}>
       <Slider {...settings}>
         <div className="textContainer">
           <h1>
