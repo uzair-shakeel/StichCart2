@@ -43,14 +43,14 @@
 
 @media (max-width: 768px) {
   .recentWorks {
-    grid-template-columns: repeat(2, 1fr); /* 3 columns for medium devices */
+    grid-template-columns: repeat(1, 1fr); /* 3 columns for medium devices */
+    padding: 2% 3%;
   }
 }
 
-/* Media query for small devices (phones) */
-@media (max-width: 480px) {
-  .recentWorks {
-    grid-template-columns: repeat(1, 1fr); /* 1 column for small devices */
-    margin: 5% 2%; /* Adjust margin for smaller screens */
-  }
-}
+// @media (max-width: 480px) {
+//   .recentWorks {
+//     grid-template-columns: repeat(1, 1fr); /* 1 column for small devices */
+//     margin: 5% 2%; /* Adjust margin for smaller screens */
+//   }
+// }

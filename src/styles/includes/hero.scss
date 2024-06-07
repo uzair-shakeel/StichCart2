@@ -8,10 +8,6 @@
   padding: 0;
   flex-direction: column;
   align-items: flex-start;
-  // padding-left: 15%;
-  // padding-top: 3%;
-  // padding-right: 3%;
-  // padding-bottom: 3%;
   justify-content: center;
 
   h4 {
@@ -26,6 +22,10 @@
 }
 
 @media (max-width: 768px) {
+  .hero {
+    background-image: url("../../../public/mobile.png"); /* Change to the desired image for small screens */
+    height: 240px;
+  }
   .hero h4 {
     font-size: 22px;
   }
@@ -37,6 +37,10 @@
 
 /* Media query for small devices (phones) */
 @media (max-width: 480px) {
+  .hero {
+    background-image: url("../../../public/mobile.png"); /* Change to the desired image for small screens */
+    height: 450px;
+  }
   .hero h4 {
     font-size: 20px;
   }
