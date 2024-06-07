@@ -10,11 +10,16 @@ const homeBanner = () => {
         <div className="image">
           <img src={image} alt="" />
         </div>
-        <p>CURRENT DELIVERY LOCATIONS - </p>
-        <p>TAMBARAM, PALLAVARAM, PORUR & MANNIVAKKAM</p>
+        <p>
+          CURRENT DELIVERY LOCATIONS - <br />
+          TAMBARAM, PALLAVARAM, PORUR & MANNIVAKKAM
+        </p>
       </div>
       <div className="first">
-        <h5>Shriram properties</h5>
+        <h5>
+          Shriram properties <br />
+          (Park 63) perungalathur
+        </h5>
 
         <p>apartments where we currently offer stitching service </p>
         <p>

@@ -1,9 +1,9 @@
 .recentWorks {
   display: grid;
   grid-template-columns: repeat(4, 1fr); // 3 columns
-  gap: 15px;
-  padding: 15px;
-  margin: 5%;
+  gap: 20px;
+  // padding: 10px;
+  margin: 10px 5%;
   // margin-top: 40px;
   // margin-bottom: 40px;
 
@@ -11,15 +11,17 @@
     background-color: #5a2383;
     color: white;
     text-align: center;
-    border-radius: 18px;
+    border-radius: 8px;
+    height: auto;
+    max-height: 280px;
     display: flex;
     align-items: center;
+    text-align: start;
 
     h1 {
-      margin: 0;
-
+      padding: 0 20%;
       font-size: 40px;
-      font-weight: 700;
+      font-weight: 900;
     }
   }
 
@@ -27,14 +29,14 @@
     display: grid;
     grid-template-columns: 1fr; // Single column for the images
     gap: 15px;
-    border-radius: 18px;
+    border-radius: 8px;
     overflow: hidden;
   }
 
   img {
     width: 100%;
     height: auto;
-    max-height: 200px; /* Limit image height */
+    max-height: 280px; /* Limit image height */
     object-fit: cover; /* Cover container while maintaining aspect ratio */
   }
 }

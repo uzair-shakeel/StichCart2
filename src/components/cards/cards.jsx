@@ -8,7 +8,7 @@ import labCoat from "../../assets/LapCoat.png";
 import Blazer from "../../assets/Blazer.png";
 import whatsapp from "../../assets/whatsapp2.png";
 
-const cards = () => {
+const cards = () => { 
   return (
     <div className="cards-container">
       <div className="twoContainer">

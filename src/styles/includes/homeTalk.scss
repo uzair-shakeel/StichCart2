@@ -1,6 +1,7 @@
 .home-talk {
   background-color: #1a1a1a;
-  padding: 30px 0;
+  position: relative;
+  padding: 60px 0;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -8,11 +9,10 @@
   justify-content: center;
   &__heading {
     font-size: 30px;
-
     width: 70%;
     color: white;
     font-weight: 700;
-    padding: 30px 0;
+    padding: 60px 0;
     text-align: center;
   }
 
@@ -30,6 +30,17 @@
       width: 95%;
       font-size: 15px;
     }
+  }
+
+  .chat {
+    height: 80px;
+    width: 80px;
+    right: 50px;
+    bottom: 0px;
+    position: absolute;
+    background-image: url("../../../public/chat.png");
+    background-size: cover;
+    cursor: pointer;
   }
 
   &__button-container {

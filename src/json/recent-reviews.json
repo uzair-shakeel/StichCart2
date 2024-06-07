@@ -1,0 +1,32 @@
+[
+    {
+        "id": 51,
+        "author": "Sam",
+        "reviewSubmittedDate": "2023-02-27T05:36:03.000+0000",
+        "reviewText": "Thank you for offering these beautifully unique tops. They are flattering and gorgeous!",
+        "reviewStatus": "APPROVED",
+        "helpfulCount": 0,
+        "notHelpfulCount": 0,
+        "reviewFeedback": [],
+        "ratingDetail": {
+            "id": 51,
+            "rating": 4.0,
+            "ratingSubmittedDate": "2023-02-27T05:36:02.000+0000"
+        }
+    },
+    {
+        "id": 1,
+        "author": "Stitchcart",
+        "reviewSubmittedDate": "2023-02-27T02:17:05.000+0000",
+        "reviewText": "I love the way your website is done with the flip images and the catwalks. Makes it wonderful to shop online. Thank you. I'll be back again and again!",
+        "reviewStatus": "APPROVED",
+        "helpfulCount": 0,
+        "notHelpfulCount": 0,
+        "reviewFeedback": [],
+        "ratingDetail": {
+            "id": 1,
+            "rating": 5.0,
+            "ratingSubmittedDate": "2023-02-27T02:17:05.000+0000"
+        }
+    }
+]

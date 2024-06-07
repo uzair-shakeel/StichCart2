@@ -16,14 +16,14 @@ const Navbar = () => {
             <img src={logo} className="logo" alt="Logo" />
           </Link>
           <div className="menu">
-            <Link to={"/login"} className="loginDiv">
+            {/* <Link to={"/login"} className="loginDiv">
               <FaRegCircleUser
                 size={28}
                 className="icon"
                 style={{ height: "20px" }}
               />
               <div>Login</div>
-            </Link>
+            </Link> */}
             <ul>
               <li>
                 <Link to="/services" className="navli">

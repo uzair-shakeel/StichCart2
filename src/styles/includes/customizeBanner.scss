@@ -4,8 +4,8 @@
   margin: 5%;
 
   .customizeBanner {
-    padding: 20px 0;
-    flex: 0 0 70%;
+    padding: 5% 0;
+    flex: 0 0 65%;
     width: 100%;
     background-image: url("../../../public/customize.png");
     background-size: cover;
@@ -15,8 +15,8 @@
     border-radius: 8px;
     align-items: start;
     text-align: start;
-    padding-left: 8%;
-    justify-content: center;
+    padding-left: 5%;
+    justify-content: space-between;
 
     h3 {
       font-weight: 800;
@@ -36,8 +36,8 @@
   }
 
   .image {
-    flex: 0 0 25%;
-    max-height: 300px;
+    flex: 0 0 30%;
+    max-height: 350px;
   }
 }
 

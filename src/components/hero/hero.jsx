@@ -1,11 +1,10 @@
 import React from "react";
+import imga from "../../../public/Hero2.png";
 
 const Hero = () => {
   return (
     <div className="hero">
-      <h4>Bulk</h4>
-      <h3>UNIFORM</h3>
-      <p>TAILORING</p>
+      {/* <img src={imga} alt="" style={{ height: "100%" }} /> */}
     </div>
   );
 };

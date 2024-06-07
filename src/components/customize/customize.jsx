@@ -9,8 +9,8 @@ const customize = () => {
       <div className="customizeBanner">
         {/* <h4>Bulk</h4> */}
         <h3>
-          SELF <br />
-          CUSTOMIZE
+          Self <br />
+          Customise
         </h3>
         <p>
           Tailor - make your dream <br />

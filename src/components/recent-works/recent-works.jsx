@@ -8,7 +8,7 @@ const RecentWorks = () => {
     <div className={"recentWorks"}>
       <div className="textContainer">
         <h1>
-          OUR <br /> RECENT WORK
+          Our <br /> Recent Works
         </h1>
       </div>
       <div className={"imagesContainer"}>

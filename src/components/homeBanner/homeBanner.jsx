@@ -16,9 +16,7 @@ const homeBanner = () => {
           label="Book your fitting today"
         />
       </div>
-      <div className="image">
-        <img src={image} />
-      </div>
+      <div className="image">{/* <img src={image} /> */}</div>
     </div>
   );
 };
