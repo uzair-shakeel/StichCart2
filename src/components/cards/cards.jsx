@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import whatsapp from "../../assets/whatsapp2.png";
+import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
+import "react-loading-skeleton/dist/skeleton.css";
 import categoriesData from "../../json/categories.json";
 
-const cards = () => {
-  const categories = categoriesData;
+const Cards = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  const [categories, setCategories] = useState([]);
+
+  useEffect(() => {
+    // Simulate a data fetch
+    setTimeout(() => {
+      setCategories(categoriesData);
+      setIsLoading(false);
+    }, 2000); // Simulating a 2-second delay
+  }, []);
 
   const firstTwo = categories.slice(0, 2);
   const nextThree = categories.slice(2, 5);
@@ -22,13 +33,42 @@ const cards = () => {
     </div>
   );
 
+  const renderSkeletonCard = (index) => (
+    // <div key={index}>
+    //   <Skeleton className="cards" />
+    // </div>
+    <SkeletonTheme key={index} baseColor="#202020" highlightColor="#444">
+      <p>
+        <Skeleton className="cards" />
+      </p>
+    </SkeletonTheme>
+  );
+
   return (
     <div className="cards-container">
-      <div className="twoContainer">{firstTwo.map(renderCard)}</div>
-      <div className="threeContainer">{nextThree.map(renderCard)}</div>
-      <div className="twoContainer">{lastTwo.map(renderCard)}</div>
+      <div className="twoContainer">
+        {isLoading
+          ? Array.from({ length: 2 }).map((_, index) =>
+              renderSkeletonCard(index)
+            )
+          : firstTwo.map(renderCard)}
+      </div>
+      <div className="threeContainer">
+        {isLoading
+          ? Array.from({ length: 3 }).map((_, index) =>
+              renderSkeletonCard(index)
+            )
+          : nextThree.map(renderCard)}
+      </div>
+      <div className="twoContainer">
+        {isLoading
+          ? Array.from({ length: 2 }).map((_, index) =>
+              renderSkeletonCard(index)
+            )
+          : lastTwo.map(renderCard)}
+      </div>
     </div>
   );
 };
 
-export default cards;
+export default Cards;
