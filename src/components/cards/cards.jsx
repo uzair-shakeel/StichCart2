@@ -1,20 +1,26 @@
 import React, { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { loadCategories } from "../../actions/category-action";
 import whatsapp from "../../assets/whatsapp2.png";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
-import categoriesData from "../../json/categories.json";
 
 const Cards = () => {
   const [isLoading, setIsLoading] = useState(true);
-  const [categories, setCategories] = useState([]);
+  const dispatch = useDispatch();
+  const categories = useSelector((state) => state.categoryState.categories);
 
   useEffect(() => {
-    // Simulate a data fetch
-    setTimeout(() => {
-      setCategories(categoriesData);
-      setIsLoading(false);
-    }, 2000); // Simulating a 2-second delay
+    fetchCategories();
   }, []);
+
+  const fetchCategories = () => {
+    dispatch(loadCategories());
+
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
+  };
 
   const firstTwo = categories.slice(0, 2);
   const nextThree = categories.slice(2, 5);
@@ -34,9 +40,6 @@ const Cards = () => {
   );
 
   const renderSkeletonCard = (index) => (
-    // <div key={index}>
-    //   <Skeleton className="cards" />
-    // </div>
     <SkeletonTheme key={index} baseColor="#202020" highlightColor="#444">
       <p>
         <Skeleton className="cards" />

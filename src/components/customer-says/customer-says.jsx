@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
-import carouselData from "../../json/customer-testimonials.json";
+import { useDispatch, useSelector } from "react-redux";
+import { loadCarouselData } from "../../actions/carouselActions";
 
 const Carousal = () => {
+  const dispatch = useDispatch();
+  const carouselData = useSelector((state) => state.carousel.carouselData);
+  const loading = useSelector((state) => state.carousel.loading);
+  const error = useSelector((state) => state.carousel.error);
+
+  useEffect(() => {
+    dispatch(loadCarouselData());
+  }, [dispatch]);
+
   const settings = {
     infinite: true,
     speed: 500,
@@ -40,6 +50,8 @@ const Carousal = () => {
             What our <br /> Customer <br /> are Saying
           </h1>
         </div>
+        {loading && <div>Loading...</div>}
+        {error && <div>Error: {error}</div>}
         {carouselData.map((item) => (
           <div key={item.id} className={"carousalContainer"}>
             <img src={item.mediaUrl} alt={item.author} />
