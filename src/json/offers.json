@@ -5,7 +5,7 @@
         "endDate": null,
         "marketingMessage": null,
         "description": null,
-        "name": "New Year Offer",
+        "name": "Tamil New Year Offer",
         "automatic": false,
         "offerType": {
             "friendlyName": "Order",
@@ -16,8 +16,8 @@
             "type": "PERCENT_OFF"
         },
         "archived": "N",
-        "imageUrl": "https://promocodeclub.com/wp-content/uploads/2016/12/new-year-offers.jpg",
-        "offerCode": "NEWYEAR2022",
+        "imageUrl": "https://socialtribes-website.s3.ap-south-1.amazonaws.com/images/offer/offer1.png",
+        "offerCode": "TAMILNEWYEAR2024",
         "value": 10.00000
     },
     {

@@ -80,7 +80,10 @@
     align-items: center;
 
     img {
-      height: 60px;
+      height: 80px;
+      @media (max-width: 480px) {
+        height: 60px;
+      }
     }
 
     .navbtn {
@@ -102,8 +105,11 @@
   padding: 1rem;
   transition: transform 0.5s;
 
-  padding-top: 100px;
-  z-index: 5; /* Lower z-index compared to Navbar */
+  padding-top: 150px;
+  z-index: 5;
+  @media (max-width: 480px) {
+    padding-top: 100px;
+  }
 
   ul {
     font-size: 18px;

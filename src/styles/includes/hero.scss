@@ -24,7 +24,11 @@
 @media (max-width: 768px) {
   .hero {
     background-image: url("../../../public/mobile.png"); /* Change to the desired image for small screens */
-    height: 240px;
+    height: 700px;
+
+    @media (max-width: 408px) {
+      height: 240px;
+    }
   }
   .hero h4 {
     font-size: 22px;

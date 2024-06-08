@@ -1,10 +1,9 @@
 import React from "react";
-import image1 from "../../assets/Group 70 copy.png";
-import image2 from "../../assets/Group 70 copy 2.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
+import carouselData from "../../json/customer-testimonials.json";
 
 const Carousal = () => {
   const settings = {
@@ -18,7 +17,7 @@ const Carousal = () => {
       {
         breakpoint: 770,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
         },
@@ -32,6 +31,7 @@ const Carousal = () => {
       },
     ],
   };
+
   return (
     <div className="slider-container" style={{ padding: "0 5%", width: "98%" }}>
       <Slider {...settings}>
@@ -40,27 +40,13 @@ const Carousal = () => {
             What our <br /> Customer <br /> are Saying
           </h1>
         </div>
-        <div className={"carousalContainer"}>
-          <img src={image1} alt="Work 1" />
-        </div>
-        <div className={"carousalContainer"}>
-          <img src={image2} alt="Work 2" />
-        </div>
+        {carouselData.map((item) => (
+          <div key={item.id} className={"carousalContainer"}>
+            <img src={item.mediaUrl} alt={item.author} />
+          </div>
+        ))}
       </Slider>
     </div>
-    // <div className={"carousal"}>
-    //   <div className="textContainer">
-    //     <h1>
-    //       What our <br /> Customer <br /> are Saying
-    //     </h1>
-    //   </div>
-    //   <div className={"carousalContainer"}>
-    //     <img src={image1} alt="Work 1" />
-    //   </div>
-    //   <div className={"carousalContainer"}>
-    //     <img src={image2} alt="Work 2" />
-    //   </div>
-    // </div>
   );
 };
 

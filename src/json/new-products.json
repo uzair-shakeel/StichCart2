@@ -1,357 +1,215 @@
 [
-    {
-        "id": 13051,
-        "name": "ch-11",
-        "description": null,
-        "longDescription": null,
-        "url": "/chudidhars-and-tops/ch-11",
-        "retailPrice": {
-            "amount": 350.00,
-            "currency": "USD"
-        },
-        "salePrice": null,
-        "primaryMedia": {
-            "allowOverrideUrl": true,
-            "id": 103251,
-            "title": null,
-            "url": "/enclothe-api/cmsstatic/product/ch-11.jpg",
-            "altText": null,
-            "tags": null,
-            "archived": null
-        },
-        "dynamicSkuPrices": null,
-        "active": true,
-        "productOptions": null,
-        "priority": null,
-        "bundleItemsRetailPrice": null,
-        "bundleItemsSalePrice": null,
-        "activeStartDate": null,
-        "activeEndDate": null,
-        "manufacturer": null,
-        "model": null,
-        "promoMessage": null,
-        "defaultSku": {
-            "id": 13401,
-            "activeStartDate": "2021-04-14T02:30:00.000+0000",
-            "activeEndDate": null,
-            "name": "ch-11",
-            "active": true,
-            "available": true,
-            "inventoryType": null,
-            "description": null,
-            "retailPrice": {
-                "amount": 350.00,
-                "currency": "USD"
-            },
-            "salePrice": null,
-            "weight": {
-                "weight": null,
-                "unitOfMeasure": "KILOGRAMS"
-            },
-            "dimension": {
-                "width": null,
-                "height": null,
-                "depth": null,
-                "girth": null,
-                "container": null,
-                "size": null,
-                "dimensionUnitOfMeasure": "CENTIMETERS"
-            },
-            "archived": null,
-            "productOptionValues": []
-        },
-        "additionalSkus": null,
-        "defaultCategoryId": null,
-        "upsaleProducts": null,
-        "crossSaleProducts": null,
-        "productAttributes": null,
-        "media": null,
-        "skuBundleItems": null,
-        "promotionMessages": null,
-        "archived": null
+  {
+    "id": 1,
+    "name": "Product1",
+    "description": null,
+    "longDescription": "",
+    "url": "/src/assets/works1.png",
+    "retailPrice": {
+      "amount": 750.0,
+      "currency": "USD"
     },
-    {
-        "id": 11150,
-        "name": "CL-05-FN",
-        "description": null,
-        "longDescription": null,
-        "url": "/classic/cl-05-FN",
-        "retailPrice": {
-            "amount": 500.00,
-            "currency": "USD"
-        },
-        "salePrice": null,
-        "primaryMedia": {
-            "allowOverrideUrl": true,
-            "id": 101353,
-            "title": null,
-            "url": "/enclothe-api/cmsstatic/product/CL-05-FN.jpg",
-            "altText": null,
-            "tags": null,
-            "archived": null
-        },
-        "dynamicSkuPrices": null,
-        "active": true,
-        "productOptions": null,
-        "priority": null,
-        "bundleItemsRetailPrice": null,
-        "bundleItemsSalePrice": null,
-        "activeStartDate": null,
-        "activeEndDate": null,
-        "manufacturer": null,
-        "model": null,
-        "promoMessage": null,
-        "defaultSku": {
-            "id": 11503,
-            "activeStartDate": "2020-09-17T05:09:53.000+0000",
-            "activeEndDate": null,
-            "name": "CL-05-FN",
-            "active": true,
-            "available": true,
-            "inventoryType": null,
-            "description": null,
-            "retailPrice": {
-                "amount": 500.00,
-                "currency": "USD"
-            },
-            "salePrice": null,
-            "weight": {
-                "weight": null,
-                "unitOfMeasure": "KILOGRAMS"
-            },
-            "dimension": {
-                "width": null,
-                "height": null,
-                "depth": null,
-                "girth": null,
-                "container": null,
-                "size": null,
-                "dimensionUnitOfMeasure": "CENTIMETERS"
-            },
-            "archived": null,
-            "productOptionValues": []
-        },
-        "additionalSkus": null,
-        "defaultCategoryId": null,
-        "upsaleProducts": null,
-        "crossSaleProducts": null,
-        "productAttributes": null,
-        "media": null,
-        "skuBundleItems": null,
-        "promotionMessages": null,
-        "archived": null
+    "salePrice": null,
+    "primaryMedia": {
+      "allowOverrideUrl": true,
+      "id": 1,
+      "title": null,
+      "url": "/enclothe-api/cmsstatic/category/163/premium-product1.png",
+      "altText": null,
+      "tags": null,
+      "archived": null
     },
-    {
-        "id": 10750,
-        "name": "CO-10-BN",
-        "description": null,
-        "longDescription": null,
-        "url": "/comtemporary/CO-10-BN",
-        "retailPrice": {
-            "amount": 500.00,
-            "currency": "USD"
-        },
-        "salePrice": null,
-        "primaryMedia": {
-            "allowOverrideUrl": true,
-            "id": 100903,
-            "title": null,
-            "url": "/enclothe-api/cmsstatic/product/CO-10-1.jpg",
-            "altText": null,
-            "tags": null,
-            "archived": null
-        },
-        "dynamicSkuPrices": null,
-        "active": true,
-        "productOptions": null,
-        "priority": null,
-        "bundleItemsRetailPrice": null,
-        "bundleItemsSalePrice": null,
-        "activeStartDate": null,
-        "activeEndDate": null,
-        "manufacturer": null,
-        "model": null,
-        "promoMessage": null,
-        "defaultSku": {
-            "id": 11101,
-            "activeStartDate": "2020-08-20T05:52:53.000+0000",
-            "activeEndDate": null,
-            "name": "CO-10-BN",
-            "active": true,
-            "available": true,
-            "inventoryType": null,
-            "description": null,
-            "retailPrice": {
-                "amount": 500.00,
-                "currency": "USD"
-            },
-            "salePrice": null,
-            "weight": {
-                "weight": null,
-                "unitOfMeasure": "KILOGRAMS"
-            },
-            "dimension": {
-                "width": null,
-                "height": null,
-                "depth": null,
-                "girth": null,
-                "container": null,
-                "size": null,
-                "dimensionUnitOfMeasure": "CENTIMETERS"
-            },
-            "archived": null,
-            "productOptionValues": []
-        },
-        "additionalSkus": null,
-        "defaultCategoryId": null,
-        "upsaleProducts": null,
-        "crossSaleProducts": null,
-        "productAttributes": null,
-        "media": null,
-        "skuBundleItems": null,
-        "promotionMessages": null,
-        "archived": null
+    "dynamicSkuPrices": null,
+    "active": true,
+    "productOptions": null,
+    "priority": null,
+    "bundleItemsRetailPrice": null,
+    "bundleItemsSalePrice": null,
+    "activeStartDate": null,
+    "activeEndDate": null,
+    "manufacturer": null,
+    "model": null,
+    "promoMessage": null,
+    "defaultSku": {
+      "id": 13951,
+      "activeStartDate": "2023-05-20T10:59:47.000+0000",
+      "activeEndDate": null,
+      "name": "Product1",
+      "active": true,
+      "available": true,
+      "inventoryType": null,
+      "description": null,
+      "retailPrice": {
+        "amount": 750.0,
+        "currency": "USD"
+      },
+      "salePrice": null,
+      "weight": {
+        "weight": null,
+        "unitOfMeasure": "KILOGRAMS"
+      },
+      "dimension": {
+        "width": null,
+        "height": null,
+        "depth": null,
+        "girth": null,
+        "container": null,
+        "size": null,
+        "dimensionUnitOfMeasure": "CENTIMETERS"
+      },
+      "archived": null,
+      "productOptionValues": []
     },
-    {
-        "id": 10753,
-        "name": "CL-06-BN",
-        "description": null,
-        "longDescription": "<table>\r\n<tbody>\r\n<tr>\r\n\t<td colspan=\"9\">A multi colour sleeveless blouse with back button. This   simple blouse goes well with a plain saree.\r\n\t</td>\r\n</tr>\r\n</tbody>\r\n</table>",
-        "url": "/classic/CL-06-BN",
-        "retailPrice": {
-            "amount": 250.00,
-            "currency": "USD"
-        },
-        "salePrice": null,
-        "primaryMedia": {
-            "allowOverrideUrl": true,
-            "id": 100913,
-            "title": null,
-            "url": "/enclothe-api/cmsstatic/product/CL-06-BN.jpg",
-            "altText": null,
-            "tags": null,
-            "archived": null
-        },
-        "dynamicSkuPrices": null,
-        "active": true,
-        "productOptions": null,
-        "priority": null,
-        "bundleItemsRetailPrice": null,
-        "bundleItemsSalePrice": null,
-        "activeStartDate": null,
-        "activeEndDate": null,
-        "manufacturer": null,
-        "model": null,
-        "promoMessage": null,
-        "defaultSku": {
-            "id": 11106,
-            "activeStartDate": "2020-08-20T07:05:44.000+0000",
-            "activeEndDate": null,
-            "name": "CL-06-BN",
-            "active": true,
-            "available": true,
-            "inventoryType": null,
-            "description": null,
-            "retailPrice": {
-                "amount": 250.00,
-                "currency": "USD"
-            },
-            "salePrice": null,
-            "weight": {
-                "weight": null,
-                "unitOfMeasure": "KILOGRAMS"
-            },
-            "dimension": {
-                "width": null,
-                "height": null,
-                "depth": null,
-                "girth": null,
-                "container": null,
-                "size": null,
-                "dimensionUnitOfMeasure": "CENTIMETERS"
-            },
-            "archived": null,
-            "productOptionValues": []
-        },
-        "additionalSkus": null,
-        "defaultCategoryId": null,
-        "upsaleProducts": null,
-        "crossSaleProducts": null,
-        "productAttributes": null,
-        "media": null,
-        "skuBundleItems": null,
-        "promotionMessages": null,
-        "archived": null
+    "additionalSkus": null,
+    "defaultCategoryId": null,
+    "upsaleProducts": null,
+    "crossSaleProducts": null,
+    "productAttributes": null,
+    "media": null,
+    "skuBundleItems": null,
+    "promotionMessages": null,
+    "archived": null
+  },
+  {
+    "id": 2,
+    "name": "Product2",
+    "description": null,
+    "longDescription": "",
+    "url": "/src/assets/works2.png",
+    "retailPrice": {
+      "amount": 750.0,
+      "currency": "USD"
     },
-    {
-        "id": 11254,
-        "name": "CL-04-BN",
-        "description": null,
-        "longDescription": "<table>\r\n<tbody>\r\n<tr>\r\n\t<td colspan=\"7\">a very simple katori cut blouse with wide neck for your   regular wear.\r\n\t</td>\r\n</tr>\r\n</tbody>\r\n</table>",
-        "url": "/classic/cl-04-bn",
-        "retailPrice": {
-            "amount": 250.00,
-            "currency": "USD"
-        },
-        "salePrice": null,
-        "primaryMedia": {
-            "allowOverrideUrl": true,
-            "id": 101455,
-            "title": null,
-            "url": "/enclothe-api/cmsstatic/product/CL-04-BN.jpg",
-            "altText": null,
-            "tags": null,
-            "archived": null
-        },
-        "dynamicSkuPrices": null,
-        "active": true,
-        "productOptions": null,
-        "priority": null,
-        "bundleItemsRetailPrice": null,
-        "bundleItemsSalePrice": null,
-        "activeStartDate": null,
-        "activeEndDate": null,
-        "manufacturer": null,
-        "model": null,
-        "promoMessage": null,
-        "defaultSku": {
-            "id": 11604,
-            "activeStartDate": "2020-09-21T07:48:44.000+0000",
-            "activeEndDate": null,
-            "name": "CL-04-BN",
-            "active": true,
-            "available": true,
-            "inventoryType": null,
-            "description": null,
-            "retailPrice": {
-                "amount": 250.00,
-                "currency": "USD"
-            },
-            "salePrice": null,
-            "weight": {
-                "weight": null,
-                "unitOfMeasure": "KILOGRAMS"
-            },
-            "dimension": {
-                "width": null,
-                "height": null,
-                "depth": null,
-                "girth": null,
-                "container": null,
-                "size": null,
-                "dimensionUnitOfMeasure": "CENTIMETERS"
-            },
-            "archived": null,
-            "productOptionValues": []
-        },
-        "additionalSkus": null,
-        "defaultCategoryId": null,
-        "upsaleProducts": null,
-        "crossSaleProducts": null,
-        "productAttributes": null,
-        "media": null,
-        "skuBundleItems": null,
-        "promotionMessages": null,
-        "archived": null
-    }
+    "salePrice": null,
+    "primaryMedia": {
+      "allowOverrideUrl": true,
+      "id": 1,
+      "title": null,
+      "url": "/enclothe-api/cmsstatic/category/163/premium-product2.png",
+      "altText": null,
+      "tags": null,
+      "archived": null
+    },
+    "dynamicSkuPrices": null,
+    "active": true,
+    "productOptions": null,
+    "priority": null,
+    "bundleItemsRetailPrice": null,
+    "bundleItemsSalePrice": null,
+    "activeStartDate": null,
+    "activeEndDate": null,
+    "manufacturer": null,
+    "model": null,
+    "promoMessage": null,
+    "defaultSku": {
+      "id": 13951,
+      "activeStartDate": "2023-05-20T10:59:47.000+0000",
+      "activeEndDate": null,
+      "name": "Product1",
+      "active": true,
+      "available": true,
+      "inventoryType": null,
+      "description": null,
+      "retailPrice": {
+        "amount": 750.0,
+        "currency": "USD"
+      },
+      "salePrice": null,
+      "weight": {
+        "weight": null,
+        "unitOfMeasure": "KILOGRAMS"
+      },
+      "dimension": {
+        "width": null,
+        "height": null,
+        "depth": null,
+        "girth": null,
+        "container": null,
+        "size": null,
+        "dimensionUnitOfMeasure": "CENTIMETERS"
+      },
+      "archived": null,
+      "productOptionValues": []
+    },
+    "additionalSkus": null,
+    "defaultCategoryId": null,
+    "upsaleProducts": null,
+    "crossSaleProducts": null,
+    "productAttributes": null,
+    "media": null,
+    "skuBundleItems": null,
+    "promotionMessages": null,
+    "archived": null
+  },
+  {
+    "id": 3,
+    "name": "Product3",
+    "description": null,
+    "longDescription": "",
+    "url": "/src/assets/works3.png",
+    "retailPrice": {
+      "amount": 750.0,
+      "currency": "USD"
+    },
+    "salePrice": null,
+    "primaryMedia": {
+      "allowOverrideUrl": true,
+      "id": 1,
+      "title": null,
+      "url": "/enclothe-api/cmsstatic/category/163/premium-product3.png",
+      "altText": null,
+      "tags": null,
+      "archived": null
+    },
+    "dynamicSkuPrices": null,
+    "active": true,
+    "productOptions": null,
+    "priority": null,
+    "bundleItemsRetailPrice": null,
+    "bundleItemsSalePrice": null,
+    "activeStartDate": null,
+    "activeEndDate": null,
+    "manufacturer": null,
+    "model": null,
+    "promoMessage": null,
+    "defaultSku": {
+      "id": 13951,
+      "activeStartDate": "2023-05-20T10:59:47.000+0000",
+      "activeEndDate": null,
+      "name": "Product1",
+      "active": true,
+      "available": true,
+      "inventoryType": null,
+      "description": null,
+      "retailPrice": {
+        "amount": 750.0,
+        "currency": "USD"
+      },
+      "salePrice": null,
+      "weight": {
+        "weight": null,
+        "unitOfMeasure": "KILOGRAMS"
+      },
+      "dimension": {
+        "width": null,
+        "height": null,
+        "depth": null,
+        "girth": null,
+        "container": null,
+        "size": null,
+        "dimensionUnitOfMeasure": "CENTIMETERS"
+      },
+      "archived": null,
+      "productOptionValues": []
+    },
+    "additionalSkus": null,
+    "defaultCategoryId": null,
+    "upsaleProducts": null,
+    "crossSaleProducts": null,
+    "productAttributes": null,
+    "media": null,
+    "skuBundleItems": null,
+    "promotionMessages": null,
+    "archived": null
+  }
 ]

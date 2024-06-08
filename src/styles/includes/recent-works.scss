@@ -2,10 +2,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr); // 3 columns
   gap: 20px;
-  // padding: 10px;
   margin: 10px 5%;
-  // margin-top: 40px;
-  // margin-bottom: 40px;
 
   .textContainer {
     background-color: #5a2383;
@@ -17,11 +14,18 @@
     display: flex;
     align-items: center;
     text-align: start;
+    @media (max-width: 768px) {
+      height: 400px; /* Limit image height */
+    }
 
     h1 {
       padding: 0 20%;
       font-size: 40px;
       font-weight: 900;
+      @media (max-width: 768px) {
+        font-size: 60px;
+        font-weight: 900;
+      }
     }
   }
 
@@ -38,19 +42,22 @@
     height: auto;
     max-height: 280px; /* Limit image height */
     object-fit: cover; /* Cover container while maintaining aspect ratio */
+    @media (max-width: 768px) {
+      max-height: 400px; /* Limit image height */
+    }
   }
 }
 
 @media (max-width: 768px) {
   .recentWorks {
     grid-template-columns: repeat(1, 1fr); /* 3 columns for medium devices */
-    padding: 2% 3%;
+    padding: 3% 13%;
   }
 }
 
-// @media (max-width: 480px) {
-//   .recentWorks {
-//     grid-template-columns: repeat(1, 1fr); /* 1 column for small devices */
-//     margin: 5% 2%; /* Adjust margin for smaller screens */
-//   }
-// }
+@media (max-width: 480px) {
+  .recentWorks {
+    grid-template-columns: repeat(1, 1fr); /* 3 columns for medium devices */
+    padding: 2% 3%;
+  }
+}
