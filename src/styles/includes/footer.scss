@@ -6,7 +6,7 @@
   color: white;
   padding: 5% 7%;
   margin: 70px 0 0 0;
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     text-align: left;
     padding-left: 20px;
     padding-bottom: 60px;
@@ -15,7 +15,7 @@
   }
 
   .matter {
-    @media (max-width: 480px) {
+    @media (max-width: 768px) {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -63,15 +63,20 @@
         color: #797979;
         transition: 0.45s ease-in-out;
       }
+
       .lis:hover {
         color: white;
         transition: 0.45s ease-in-out;
+      }
+      .liis {
+        color: white;
+        // transition: 0.45s ease-in-out;
       }
     }
   }
 
   .newsletter {
-    @media (max-width: 480px) {
+    @media (max-width: 768px) {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -92,6 +97,7 @@
         width: 25px;
         height: 25px;
       }
+
       p {
         color: #797979;
       }

@@ -58,7 +58,7 @@ const Footer = () => {
             <li>
               <Link
                 to={"/about-us"}
-                className="lis"
+                className="liis"
                 style={{ display: "flex", alignItems: "center", gap: "10px" }}
               >
                 <FaPhoneVolume /> +91 72001 68295
@@ -67,7 +67,7 @@ const Footer = () => {
             <li>
               <Link
                 to={"/services"}
-                className="lis"
+                className="liis"
                 style={{ display: "flex", alignItems: "center", gap: "10px" }}
               >
                 <MdOutlineEmail /> info@stitchcart.co.in
@@ -79,6 +79,7 @@ const Footer = () => {
       <div className="newsletter">
         <h4>Newsletter</h4>
         <input type="email" placeholder="Enter your email" />
+
         <div className="checkboxMatter">
           <input type="checkbox" name="emailConsent" value="agree"></input>
           <p>
