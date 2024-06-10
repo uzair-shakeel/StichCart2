@@ -1,27 +1,17 @@
 import React from "react";
 import "../../styles/includes/customizeBanner.scss";
-import Button from "../button/button";
 import offer from "../../assets/offer.png";
+import offer1 from "../../assets/Group-73.png";
 
-const customize = () => {
+const Customize = () => {
   return (
-    <div className="customize">
-      <div className="customizeBanner">
-        {/* <h4>Bulk</h4> */}
-        <h3>
-          Self <br />
-          Customise
-        </h3>
-        <p>
-          Tailor - make your dream <br />
-          outfits by one click
-        </p>
-        <Button className="btn-primary" label="Get Quote" />
+    <div className="customize-container">
+      <div className="customize-banner">
+        <img src={offer1} alt="Offer 1" className="banner-image" />
+        <img src={offer} alt="Offer 2" className="banner-image" />
       </div>
-
-      <img src={offer} alt="" className="image" />
     </div>
   );
 };
 
-export default customize;
+export default Customize;

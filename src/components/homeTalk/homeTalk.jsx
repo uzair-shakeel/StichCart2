@@ -13,7 +13,7 @@ const HomeTalk = () => {
     window.open(whatsappUrl, "_blank");
   };
   return (
-    <div className="home-talk">
+    <div className="home-talk" style={{height:'420px', padding:'270px 0'}}>
       <div className="chat" onClick={openWhatsApp}></div>
       <div className="home-talk__button-container">
         <Button className="btn-outline" label="Call or WhatsApp Now" />
@@ -23,7 +23,7 @@ const HomeTalk = () => {
         tailoring without stepping out of your home
       </h1>
       <div className="home-talk__button-container">
-        <button className="btn-transparent">
+        <button className="btn">
           Let's Talk Us <MdArrowOutward />
         </button>
       </div>

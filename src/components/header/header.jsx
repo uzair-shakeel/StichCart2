@@ -10,54 +10,50 @@ const Navbar = () => {
   console.log(sidebarOpen);
   return (
     <div>
-      <div className="desktop">
-        <div className="container">
-          <Link to={"/"}>
-            <img src={logo} className="logo" alt="Logo" />
-          </Link>
-          <div className="menu">
-            {/* <Link to={"/login"} className="loginDiv">
-              <FaRegCircleUser
-                size={28}
-                className="icon"
-                style={{ height: "20px" }}
-              />
-              <div>Login</div>
-            </Link> */}
-            <ul>
+      {/* <div className="" style={{ background: "#e51747" }}>
+        <div className="nav-container">
+          <div className="elementor-widget-image">
+            <Link to="/">
+              <img src={logo} alt="Logo" className="logo-image" />
+            </Link>
+          </div>
+          <div className="">
+            <ul
+              style={{ display: "flex", alignItems: "center", color: "white" }}
+            >
               <li>
-                <Link to="/services" className="navli">
+                <Link to="/services" className="navbar-links">
                   Our Services
                 </Link>
               </li>
               <li>
-                <Link to="/how-it-works" className="navli">
+                <Link to="/how-it-works" className="navbar-links">
                   How it Works
                 </Link>
               </li>
               <li>
-                <Link to="/why-choose-us" className="navli">
+                <Link to="/why-choose-us" className="navbar-links">
                   Why Choose Us
                 </Link>
               </li>
               <li>
-                <Link to="/contact-us" className="navli">
+                <Link to="/contact-us" className="navbar-links">
                   Contact Us
                 </Link>
               </li>
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="mobile">
+      {/* <div className="mobile">
         <Link to={"/"} onClick={() => setSidebarOpen(false)}>
           <img src={logo} className="logo" alt="Logo" />
         </Link>
         <div onClick={() => setSidebarOpen(!sidebarOpen)} className="navbtn">
           {sidebarOpen ? <IoClose size={30} /> : <GiHamburgerMenu size={26} />}
         </div>
-      </div>
+      </div> */}
       <aside className={`sidebar ${sidebarOpen ? "open" : "closed"}`}>
         <ul>
           <li>

@@ -54,3 +54,25 @@
     justify-content: center;
   }
 }
+
+
+.btn{
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 600;
+  padding: 0.58rem 1.375rem;
+  cursor: pointer;
+  height: 185px;
+  width: 185px;
+  border-radius: 50%;
+  display: flex;
+  // padding: 80px 30px/;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid #797979;
+  color: #797979;
+  transition: 0.45s ease-in-out;
+  letter-spacing: 1px;
+}
